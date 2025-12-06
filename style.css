@@ -1,0 +1,177 @@
+/* ===============================
+   GLOBAL SETTING
+================================= */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #111; /* hitam elegan */
+    color: #f7f3f4; /* putih lembut */
+}
+
+/* ===============================
+   HEADER
+================================= */
+header {
+    text-align: center;
+    padding: 30px 10px;
+    background: #b67b85; /* dusty pink gelap elegan */
+    color: #fff;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logo span {
+    font-size: 30px;
+}
+
+.tagline {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+/* ===============================
+   NAVIGATION
+================================= */
+nav {
+    background: #c48c96; /* dusty pink lebih soft */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000; /* hitam */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* ===============================
+   HERO SECTION
+================================= */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: #111; /* hitam */
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #fff; /* putih */
+}
+
+.hero p {
+    font-size: 18px;
+    color: #ddd;
+}
+
+.btn-primary {
+    display: inline-block;
+    margin-top: 15px;
+    background: #d8a7b1; /* dusty pink pastel */
+    padding: 12px 25px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* ===============================
+   MENU SECTION
+================================= */
+.menu-section {
+    padding: 40px 20px;
+    text-align: center;
+    background: #1a1a1a; /* hitam lembut */
+    color: white;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 270px;
+    background: #222; /* hitam lebih terang */
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(255,255,255,0.05);
+    border: 1px solid #b67b85; /* dusty pink border elegan */
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.btn-small {
+    display: inline-block;
+    margin-top: 10px;
+    background: #d8a7b1; /* dusty pink */
+    padding: 8px 20px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* ===============================
+   ORDER SECTION
+================================= */
+.order-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #c48c96; /* dusty pink soft */
+    color: #000;
+}
+
+.order-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-wa {
+    background: #25D366;
+    color: white;
+}
+
+.btn-ig {
+    background: #E1306C;
+    color: white;
+}
+
+/* ===============================
+   FOOTER
+================================= */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #b67b85; /* dusty pink gelap */
+    color: #fff;
+    margin-top: 30px;
+}
